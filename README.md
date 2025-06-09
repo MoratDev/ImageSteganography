@@ -72,10 +72,10 @@ python app.py
 ### Basic File Hiding Example
 
 **Original Image (1008×591 pixels)**
-https://github.com/MoratDev/ImageSteganography/blob/350bb002fb81aee89eda8df576e4393711fa68f6/example.jpg
+![city skyline](https://github.com/MoratDev/ImageSteganography/blob/350bb002fb81aee89eda8df576e4393711fa68f6/example.jpg)
 
 **Stego Image (contains hidden dummy.pdf)**
-https://github.com/MoratDev/ImageSteganography/blob/350bb002fb81aee89eda8df576e4393711fa68f6/stego_example.png
+![stego city skyline](https://github.com/MoratDev/ImageSteganography/blob/350bb002fb81aee89eda8df576e4393711fa68f6/stego_example.png)
 
 - **Hidden File**: dummy.pdf (13.0KB)
 - **Encryption Key**: `0vpuPG8YXDKl-UzRUP0uoB3J_xbl1AbBRCp1kvU7TLY=`
