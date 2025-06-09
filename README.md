@@ -69,4 +69,28 @@ python app.py
 
 ## Examples
 
-*[Image examples to be added]*
+### Basic File Hiding Example
+
+**Original Image (1008×591 pixels)**
+https://github.com/MoratDev/ImageSteganography/blob/main/example.jpg?raw=true
+
+**Stego Image (contains hidden dummy.pdf)**
+https://github.com/MoratDev/ImageSteganography/blob/main/stego_example.png?raw=true
+
+- **Hidden File**: dummy.pdf (13.0KB)
+- **Encryption Key**: `0vpuPG8YXDKl-UzRUP0uoB3J_xbl1AbBRCp1kvU7TLY=`
+- **Image Capacity**: 218.1KB available
+- **Visual Difference**: None detectable
+
+### Capacity Comparison
+
+| Image Size | Total Pixels | Storage Capacity | Example Files |
+|------------|--------------|------------------|---------------|
+| 1008×591   | 595,488      | 218.1KB         | 15-page PDF document |
+| 1920×1080  | 2,073,600    | 759KB           | 50-page text PDF or 5-page PDF with images |
+
+**High Resolution Example (1920×1080)**
+- Can hide files up to 759KB
+- Equivalent to a complete academic paper with figures
+- Or a small eBook chapter
+- Or 100+ high-quality photos compressed
